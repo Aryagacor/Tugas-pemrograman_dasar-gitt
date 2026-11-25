@@ -1,0 +1,6 @@
+# File sementara Python
+__pycache__/
+*.pyc
+
+# Pengaturan pribadi VS Code
+.vscode/
