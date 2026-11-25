@@ -1,0 +1,21 @@
+Catatan Git Pertemuan 3
+
+1. Apa beda git diff dan git diff --staged?
+
+"git diff" digunakan untuk melihat perubahan file yang belum dimasukkan ke staging area.
+
+"git diff --staged" digunakan untuk melihat perubahan yang sudah dimasukkan ke staging area dan siap di-commit.
+
+2. Apa fungsi file .gitignore?
+
+File ".gitignore" berfungsi memberi tahu Git file atau folder mana yang harus diabaikan dan tidak dimasukkan ke repository.
+
+Contohnya file sementara Python seperti "__pycache__/" dan pengaturan pribadi VS Code seperti ".vscode/".
+
+3. Sebutkan urutan alur kerja harian Git.
+
+1. Mengubah file.
+2. Menjalankan "git status".
+3. Menjalankan "git diff".
+4. Menjalankan "git add".
+5. Menjalankan "git commit -m "pesan yang jelas"".
